@@ -1,0 +1,202 @@
+body{
+    height: 100vp;
+margin-top: 0;
+    font-family: 'Arima Madurai', cursive;
+line-height: 1,6;
+font-size: 16px;
+color: rgb(251, 251, 251);
+}
+*{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+/* conatainer */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+/* intra uchun */
+
+
+.intra{
+    width: 100%;
+    height: 500px;
+    background: url("rasm.jpg") center
+    no-repeat;
+    background-size: cover;
+
+}
+
+.nav{
+    display: flex;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    width: 90%;
+    margin: auto;
+}
+.harif{
+    font-size: 38px;
+    margin: 20px;
+    display: flex;
+}
+
+.nav_item {
+    justify-content: right;
+    list-style: none;
+    margin-right: 10px;
+
+}
+
+.nav_item > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+.orta{
+
+    display: flex;
+    /* font-size: 100px;
+    fontweight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1; */
+    font-family: 'Roboto', sans-serif;    
+    width: 100vp;
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    align-content: center;
+    justify-content: center;
+    
+    font-family: 'Rubik Microbe', cursive;
+
+
+}
+
+.somsaa{
+    text-align:  center;
+    font-size: 36px ;
+    font-weight: 499;
+    line-height: 2;
+    color : rgb(243, 207, 6);
+    font-family:'Mogra', cursive ;
+}
+.size{
+    text-align: center;
+    font-family:'Mogra', cursive ;
+}
+.knopka{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-size: 23px;
+}
+
+.pngiga{
+    display: flex;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    
+
+}
+.input{
+    background-color: antiquewhite;
+    border-radius: 30px;
+    width: 240px;
+    margin: auto;
+    justify-content: right;
+    height: 36px;
+
+}
+.roixat{
+    text-align: center;
+    margin: auto;
+    height: 20px;
+}
+.box2{
+    display: flex;
+    width: 100vp;
+    height: 100vp;
+}
+.box{
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 50px;
+}
+.boxr{
+    width: 100vp;
+    height: 300px;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXDh6scu3o2GXvb6QzQwjlpZmSPcXWSOYP3w&usqp=CAU); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1%;
+    border-radius: 20px;
+    
+}
+.box3{
+    width: 300px;
+    height: 300px;
+    justify-content: right;
+    background-image: url(rasm.jpg);
+    margin: 1%;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+
+}
+.box4{
+    width: 700px;
+    height: 300px;
+    justify-content: flex-end;
+    margin: 1%;
+    border-radius: 30px;
+    background-image: url(rasm.jpg);
+    padding: 20px;
+    overflow:auto;
+}
+
+@media (max-width: 876px) {
+    
+    
+    .box{
+        grid-template-columns: 1fr;
+    }
+
+    .box2{
+        text-align: center;
+    }
+    
+    p {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    /* .user_name {
+        color: #cd232e;
+    } */
+
+    .box4 {
+        grid-row-start:2;
+        text-align: center;
+    }
+}
